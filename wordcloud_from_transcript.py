@@ -15,6 +15,7 @@ args = parser.parse_args()
 # Assign arguments to variables
 input_file = args.input
 
+file_path = input_file
 
 # open the file in read mode
 with open(file_path, 'r') as file:
@@ -33,6 +34,7 @@ for line in lines:
         speaker, text = line.split(']: ', 1)
         speakers[speaker].append(text)
 
+# Extract the texts for each speaker
 trump_texts = speakers['[Trump']
 zelenskyy_texts = speakers['[Zelenskyy']
 vance_texts = speakers['[Vance']
@@ -52,18 +54,20 @@ additional_stopwords = { "fuck", "sex", "bang", "seggs", "finished", "come","cam
 
 stopwords = set(STOPWORDS).union(additional_stopwords)
 
+# Create my image mask and folor array
 mask_array = np.array(Image.open("usa_flag.png").convert("L"))
 mask_array = np.where(mask_array > 128, 255, 0)
-
-# Assume transformed_mask is already created with the desired shape.
-# Also assume stopwords, font, and final_frequencies are defined.
 
 # Load the color image and resize it to match the canvas dimensions.
 color_image = Image.open("usa_flag.png").convert("RGB")
 color_array = np.array(color_image)
 
+# Create the image color generator from the resized color image.
+image_colors = ImageColorGenerator(color_array)
+
+
 # Generate the word cloud without a custom color function.
-wc = WordCloud(background_color=None,
+wc = WordCloud(background_color="white",
                mode="RGBA",
                mask=mask_array,
                stopwords=stopwords,
@@ -72,19 +76,10 @@ wc = WordCloud(background_color=None,
                min_font_size=10,
                max_words=2000,
                repeat=True
-              ).generate(" ".join(trump_texts))
-
-# Create the image color generator from the resized color image.
-image_colors = ImageColorGenerator(color_array)
+              ).generate(" ".join(trump_texts).join(vance_texts))
 
 # Recolor the word cloud using the image's color scheme.
 wc_recolored = wc.recolor(color_func=image_colors)
-
-# Display the resulting word cloud.
-plt.figure(figsize=[20,10])
-plt.imshow(wc_recolored, interpolation='bilinear')
-plt.axis("off")
-#plt.show()
 
 wc.to_file("usa_flag_wordcloud.png")
 
@@ -95,11 +90,6 @@ def two_color_flag_color_func(word, font_size, position, orientation, random_sta
          return "rgb(0, 91, 187)"  # Blue for top half
     else:
          return "rgb(255, 213, 0)"  # Yellow for bottom half
-
-from PIL import Image
-import numpy as np
-from wordcloud import WordCloud, ImageColorGenerator
-import matplotlib.pyplot as plt
 
 mask_array = np.array(Image.open("ukraine_flag.png").convert("L"))
 #mask_array = np.where(mask_array > 128, 255, 0)
@@ -113,7 +103,7 @@ color_image = Image.open("ukraine_flag.png").convert("RGB")
 color_array = np.array(color_image)
 
 # Generate the word cloud without a custom color function.
-wc = WordCloud(background_color=None,
+wc = WordCloud(background_color="white",
                mode="RGBA",
                mask=mask_array,
                stopwords=stopwords,
@@ -131,11 +121,5 @@ image_colors = ImageColorGenerator(color_array)
 
 # Recolor the word cloud using the image's color scheme.
 wc_recolored = wc.recolor(color_func=two_color_flag_color_func)
-
-# Display the resulting word cloud.
-plt.figure(figsize=[20,10])
-plt.imshow(wc_recolored, interpolation='bilinear')
-plt.axis("off")
-#plt.show()
 
 wc.to_file("ukraine_flag_wordcloud.png")
