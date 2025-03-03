@@ -21,7 +21,7 @@ pip install -r requirements.txt
 Use `yt-dlp` to download and extract audio from a YouTube video:
 
 ```sh
-yt-dlp --extract-audio --audio-format mp3 --audio-quality 0 "https://www.youtube.com/watch?v=utl2uLh1wVI" --output "audio.mp3"
+yt-dlp --extract-audio --audio-format mp3 --audio-quality 0 "https://www.youtube.com/watch?v=kEOv4x_FIsc" --output "audio.mp3"
 ```
 
 ### Step 2: Segment Audio by Speaker
