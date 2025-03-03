@@ -41,5 +41,5 @@ whisperx ./audio.mp3 \
 The transcript can then be attributed by name to the speaker and fed to `wordcloud_from_transcript.py` to create a word cloud masked the usa and ukrainian flags.
 
 ```
-python wordcloud_from_transcript.py --input ./output/transcript.txt
+python wordcloud_from_transcript.py --input ./output/audio.txt
 ```

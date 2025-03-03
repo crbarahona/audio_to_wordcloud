@@ -201,10 +201,10 @@
 [Trump]: Should have never started.
 [Trump]: This would have, if I were president,
 [Trump]: This would have never started.
-[SPEAKER_04]: Mr. President, we will continue sending military aid to Ukraine after the U.S.
-[SPEAKER_04]: signed this agreement with Ukraine.
-[SPEAKER_04]: The question to President Zelensky, do you feel like the U.S.
-[SPEAKER_04]: is on your side, that President Trump is on your side at this moment?
+[Zelenskyy]: Mr. President, we will continue sending military aid to Ukraine after the U.S.
+[Zelenskyy]: signed this agreement with Ukraine.
+[Zelenskyy]: The question to President Zelensky, do you feel like the U.S.
+[Zelenskyy]: is on your side, that President Trump is on your side at this moment?
 [Trump]: What do you think?
 [Trump]: He wants to know, do you think that sort of a stupid question?
 [Trump]: I guess we wouldn't be here if I wasn't.
@@ -436,7 +436,7 @@
 [Zelenskyy]: And you are right, Mr. President.
 [Zelenskyy]: That's 2%.
 [Zelenskyy]: These documents, maybe other documents, it's a very good start, very good, but it will not enough to stop this person.
-[SPEAKER_04]: This is the rule of the war.
+[Zelenskyy]: This is the rule of the war.
 [Zelenskyy]: This is the rule of the war.
 [Zelenskyy]: During all the centuries, all the history, this is the rule of the war.
 [Zelenskyy]: Who began those pain.
@@ -447,8 +447,8 @@
 [Zelenskyy]: Of course, some Russian assets what we have in Europe, about 300 billion, we can use them.
 [Zelenskyy]: We can use for innovation and buy military support from the United States also.
 [Zelenskyy]: We can do it, but it's not enough.
-[SPEAKER_04]: I asked this question that you didn't like because I wanted to know
-[SPEAKER_04]: If you want to position yourself in the middle between Russia and Ukraine, or on the Ukraine's belt.
+[Zelenskyy]: I asked this question that you didn't like because I wanted to know
+[Zelenskyy]: If you want to position yourself in the middle between Russia and Ukraine, or on the Ukraine's belt.
 [Trump]: No, I'm in the middle.
 [Trump]: I want to solve this thing.
 [Trump]: I'm for both.
@@ -457,9 +457,9 @@
 [Trump]: If we can solve it, great.
 [Trump]: If we can't solve it, they're going to have to find it out, and who knows what's going to happen.
 [Trump]: But I want to see it get solved.
-[SPEAKER_04]: One more question about the US troops in Europe.
-[SPEAKER_04]: After the Russian invasion of Ukraine, your predecessor sent additional troops to Eastern Europe, including Poland, my country.
-[SPEAKER_04]: Are you committed to keeping these troops on the Eastern flank of NATO
+[Zelenskyy]: One more question about the US troops in Europe.
+[Zelenskyy]: After the Russian invasion of Ukraine, your predecessor sent additional troops to Eastern Europe, including Poland, my country.
+[Zelenskyy]: Are you committed to keeping these troops on the Eastern flank of NATO
 [Trump]: I'm very committed to Poland.
 [Trump]: I think Poland has really stepped up and done a great job for NATO.
 [Trump]: As you know, they paid more than they had to.
@@ -640,13 +640,13 @@
 [Trump]: You know, you ought to focus on CNN and survival, not asking me these ridiculous questions.
 [Trump]: Focus on surviving because CNN's got such low ratings.
 [Trump]: I don't think they're going to survive.
-[SPEAKER_04]: Let's go.
-[SPEAKER_04]: I already mentioned Poland.
-[SPEAKER_04]: Poland was under Russian control for decades after the Second World War.
-[SPEAKER_04]: When I was a kid, I looked at the United States not only as a most powerful country, the richest country in the world.
-[SPEAKER_04]: The country that has great music, great movies, great muscle
-[SPEAKER_04]: And now I'm talking with my friends in Poland, and they are worried that you align yourself too much with Putin.
-[SPEAKER_04]: What's your message for them?
+[Zelenskyy]: Let's go.
+[Zelenskyy]: I already mentioned Poland.
+[Zelenskyy]: Poland was under Russian control for decades after the Second World War.
+[Zelenskyy]: When I was a kid, I looked at the United States not only as a most powerful country, the richest country in the world.
+[Zelenskyy]: The country that has great music, great movies, great muscle
+[Zelenskyy]: And now I'm talking with my friends in Poland, and they are worried that you align yourself too much with Putin.
+[Zelenskyy]: What's your message for them?
 [Trump]: Well, if I didn't align myself with both of them, you'd never have a deal.
 [Trump]: He wanted me to say really terrible things about Putin and then say, hi, Vladimir.
 [Trump]: How are we doing on the deal?
@@ -798,9 +798,9 @@
 [Trump]: You got to be more thankful.
 [Trump]: Because let me tell you, you don't have the cards.
 [Trump]: With us, you have the cards.
-[SPEAKER_06]: But without us, you don't have any cards.
-[SPEAKER_06]: What are you saying?
-[SPEAKER_06]: She's asking what if Russia breaks the ceasefire?
+[Trump]: But without us, you don't have any cards.
+[Trump]: What are you saying?
+[Vance]: She's asking what if Russia breaks the ceasefire?
 [Trump]: What if anything?
 [Trump]: What if the bomb drops on your head right now?
 [Trump]: Okay?
